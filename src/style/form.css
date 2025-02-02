@@ -1,0 +1,150 @@
+body{
+    background-color: rgba(220, 219, 219, 0.555);
+    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: bold;
+
+
+}
+
+h1 {
+    color:rgb(17, 16, 16) ;
+    text-align: center;
+    padding: 3%;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.h1-part-one {
+    color:rgb(17, 16, 16) ;
+    font-size: 40px;
+
+}
+
+.divBackground{
+    background-color: rgb(254, 255, 255);
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-self: center;
+    border-radius: 20px;
+    margin: 7%;
+}
+
+
+.paragraph-ferst-page,.h1-part-one  ,.paragraph-secent-page ,.yes-no-questions , .paragraph-lest-page ,.paragraph-lest-page{
+    text-align: right;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    font-family: Arial, sans-serif;
+    direction: rtl; 
+
+
+}
+
+.yes-no-questions-checkbox{
+    text-align: right;
+    margin-right: 1%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    font-family: Arial, sans-serif;
+    direction: rtl;  
+}
+
+
+.yes-no-questions-spice{
+    text-align: right;
+    padding-right: 8%;
+    padding-left: 7%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    font-family: Arial, sans-serif;
+    direction: rtl; 
+
+}
+
+.yesQ ,.noQ{
+    text-align: right;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.input-ferst-page {
+    margin-left: auto;
+    margin-right: 7%;
+    display: block;
+    width: 80%;
+    height: auto;  
+    padding: 15px; 
+    border-radius: 10px;
+    font-weight: normal;
+    border: 1px solid #ccc;
+    direction: rtl;
+}
+
+hr{
+    border: 1px solid #ccc;
+    width: 90%;
+}
+
+
+.btn-Send{
+    background-color: rgb(54, 162, 235); /* צבע רקע */
+    color: white; /* צבע טקסט */
+    padding: 12px 30px; /* ריפוד פנימי */
+    font-size: 16px; /* גודל גופן */
+    border: none; /* ללא גבול */
+    border-radius: 25px; /* פינות מעוגלות */
+    cursor: pointer; /* אייקון עכבר */
+    transition: all 0.3s ease; /* מעבר חלק של אפקטים */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* הצללה */
+    height: 80px;
+    width: 10em;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+/* עיצוב תיבת הסימון כך שתהיה עגולה */
+.checkbox-container input[type="checkbox"] {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* עושה את תיבת הסימון עגולה */
+    border: 2px solid #ccc; /* גבול דק בתיבת הסימון */
+    appearance: none; /* מסיר את העיצוב הדיפולטי של הדפדפן */
+    background-color: #fff; /* רקע לבן */
+    position: relative; /* כדי למקם את סימן ה-V בתוך תיבת הסימון */
+    cursor: pointer; /* הופך את העכבר לצורת אצבע */
+}
+
+/* כאשר תיבת הסימון נבדקה */
+.checkbox-container input[type="checkbox"]:checked {
+    background-color: #185f88; /* צבע הרקע אחרי סימון */
+    border: 2px solid #ededed; /* צבע הגבול אחרי סימון */
+}
+
+
+.send-container{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 5%;
+
+}
