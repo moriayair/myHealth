@@ -8,6 +8,8 @@ function Question({id1, id2 , name , isChecked ,onChangeQuestions}){
              <label className="yesQ" htmlFor={id1}>כן</label>
              <input type="checkbox"  id={id2} name={name} checked={isChecked === false} onChange={(e) => onChangeQuestions(e , false)}/>
              <label className="noQ" htmlFor={id2}>לא</label>
+             
+             {/*nfkfjffk*/}
          </div>
     )
 }
